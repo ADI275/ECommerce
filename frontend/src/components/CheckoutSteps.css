@@ -1,0 +1,15 @@
+.row{
+    width: 100%;
+}
+.checkout-steps > div{
+    margin-top: 1em;
+    border-top: 0.3rem gray solid;
+    color: gray;
+    flex: 1;
+    padding: 1rem;
+    font-weight: bold;
+}
+.checkout-steps > div.active{
+    border-top-color: #f08000;
+    color: #f08000;
+}

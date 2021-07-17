@@ -1,0 +1,55 @@
+.prop{
+    display: flex;
+    justify-content: flex-end;
+}
+.prop ul{
+    width: 100%;
+    justify-content: flex-end;
+}
+.itemcount{
+    border-radius: 50%;
+    background-color: red;
+}
+.dropdown{
+    display: block;
+}
+.dropdown-content{
+    display:none;
+    padding: 0%;
+    margin: 0%;
+    z-index: 1;
+    height: fit-content;
+    background-color: #2d3842;
+    color: white;
+    position: absolute;
+    border-radius: 0.2rem;
+    width: max-content;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: blanchedalmond;
+}
+.signout{
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+.signout:hover{
+    background-color: rgb(70, 73, 77);
+    color: blanchedalmond;
+}
+.navbar-brand{
+    padding: 0.5em;
+}
+.navbar-brand:hover{
+    background-color: rgb(70, 73, 77);
+}
+.nav-link:hover{
+    background-color: rgb(70, 73, 77);
+}

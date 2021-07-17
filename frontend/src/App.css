@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.cards{
+  display: flex;
+  margin: 2.5em;
+  flex-wrap: wrap;
+}

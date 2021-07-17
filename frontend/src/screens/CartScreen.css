@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+}
+.items{
+    flex: 3;
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkoutbtn{
+    background-color: rgb(224, 210, 4);
+}
+.checkoutbtn:hover{
+    background-color: rgb(248, 236, 60);
+}
+.checkout{
+    flex: 1;
+    height: fit-content;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    margin-left: 2em;
+}
+.image{
+    height: 6rem;
+    border: 1px solid gray;
+}
+@media(max-width: 775px){
+    .image{
+        height: 4.8rem;
+    }
+}
+@media(max-width: 580px){
+    .item-container{
+        display: block;
+    }
+    .item{
+        margin: 0.5em;
+    }
+}
+.subtotal{
+    padding: 0.5em;
+    margin: 0.5em;
+}
